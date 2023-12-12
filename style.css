@@ -1,3 +1,16 @@
+@font-face {font-family: NerdFont; src: url('BigBlueTermPlusNerdFontMono-Regular.ttf') }
 h1 {
-    font-family:
+    font-family: NerdFont;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    padding-right: 2rem;
+}
+
+li {
+    display: inline;
+    padding: 3rem;
 }
