@@ -1,24 +1,36 @@
-@font-face {font-family: NerdFont; src: url('BigBlueTermPlusNerdFontMono-Regular.ttf') }
-
-h1 {
-    font-family: NerdFont;
-    text-align: center;
-}
+@font-face {font-family: NerdFont; src: url('BigBlueTermPlusNerdFontMono-Regular.ttf')}
+@font-face {font-family: Inconsolata; src: url('InconsolataLGCNerdFont-Regular.ttf')}
 h2 {
     text-align: center;
 }
 ul {
     list-style: none;
-    text-align: center;
     padding-right: 2rem;
 }
 .frontpagebutton {
-    display: inline;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    border: 1px solid black;
+    display: inline-block;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 3px solid black;
     border-radius: 30px;
+    font-family:'Courier New', Courier, monospace;
+
 }
 .frontpagebutton:hover {
     color: green;
+}
+#gallery-image {
+    z-index: 2;
+    position: relative;
+
+}
+#aboutme {
+    font-family: NerdFont;
+    color: black;
+    position: relative;
+    left: 15%;
+}
+.titlemenu {
+    display: flex;
+    justify-content: space-evenly;
 }
