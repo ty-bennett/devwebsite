@@ -16,4 +16,10 @@ li {
 }
 #menubar {
     text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+#footerbg {
+    background-color: black;
+    
 }
