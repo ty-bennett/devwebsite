@@ -21,6 +21,8 @@ li {
 }
 #footerbg {
     background-color: black;
+    list-style-type: none;
+    display: list-item;
 
 }
 .footertext {
