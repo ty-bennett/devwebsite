@@ -1,5 +1,11 @@
+/* initializing font face */ 
 @font-face {font-family: NerdFont; src: url('BigBlueTermPlusNerdFontMono-Regular.ttf')}
 @font-face {font-family: Inconsolata; src: url('InconsolataLGCNerdFont-Regular.ttf')}
+
+h1 {
+    font-family: NerdFont, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    right: 15%;
+}
 h2 {
     text-align: center;
 }
@@ -34,30 +40,11 @@ ul {
     display: flex;
     justify-content: space-evenly;
 } 
-/* initializing font face */ 
-@font-face {
-    font-family: NerdFont;
-    src: url(BigBlueTerm437NerdFontMono-Regular.ttf);
-}
-@font-face {
-    font-family: Body;
-    src: url();
-}
-
-h1 {
-    font-family: NerdFont, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
-}
 
 /* making a nav bar */
 li {
     list-style-type: none;
     display: inline-block;
-}
-#menubar {
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 3px;
 }
 #footerbg {
     background-color: rgb(0, 0, 0);
@@ -68,4 +55,10 @@ li {
 .footertext {
     color: white;
     list-style-type: disc;
+}
+#frontpagelogo {
+    height: 128px;
+    width: 128px;
+    display: flex;
+    justify-content: left;
 }
