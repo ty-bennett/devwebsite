@@ -2,22 +2,24 @@
 @font-face {font-family: NerdFont; src: url('BigBlueTermPlusNerdFontMono-Regular.ttf')}
 @font-face {font-family: Inconsolata; src: url('InconsolataLGCNerdFont-Regular.ttf')}
 
+/* body styling */
+#aboutme {
+    font-family: NerdFont;
+    color: #393939;
+    position: relative;
+    left: 15%;
+}
 body {
     background-color: #393939;
 }
 h1 {
     font-family: NerdFont, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
-
 }
 h2 {
     text-align: center;
     color: white;
     font-family: Inconsolata;
-}
-ul {
-    list-style: none;
-    padding-right: 2rem;
 }
 .frontpagebutton {
     display: inline-block;
@@ -29,55 +31,44 @@ ul {
     justify-content: space-evenly;
 
 }
-.frontpagebutton:onlick {
-    color: purple;
+/*Title styling */
+#titletext {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    margin: 5px;
 }
-#gallery-image {
-    z-index: 2;
-    position: relative;
-
+#frontpagelogo {
+    height: 128px;
+    width: 128px;
+    top: -20px;
+    right: 5%;
+    position: fixed;
+    margin: 10px;
+    z-index: -3;
+    
 }
-#aboutme {
-    font-family: NerdFont;
-    color: #393939;
-    position: relative;
-    left: 15%;
-}
-#menubar {
-    text-align: center;
-}
-.titlemenu {
-    display: flex;
-    justify-content: space-evenly;
-} 
-
 /* making a nav bar */
-li {
-    list-style-type: none;
-    display: inline-block;
+.menubar {
+    text-align: center;
+    list-style: none;
+
 }
+/*footer*/
 #footerbg {
     background-color: #393939;
     list-style-type: none;
     display: list-item;
-
 }
 .footertext {
     color: white;
     font-size: 20px;
     text-align: center;
-
-}
-#frontpagelogo {
-    height: 128px;
-    width: 128px;
-    display: block;
-    right: 50%;
-    float: right;
 }
 footer {
     margin-top: 90%;
 }
+/* bodies of text */
 .introtext {
     color: white;
     font-family: Inconsolata;
@@ -85,4 +76,5 @@ footer {
 }
 .accomplishmentstext {
     color: white;
+    list-style: circle;
 }
