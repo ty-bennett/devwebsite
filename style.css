@@ -21,16 +21,6 @@ h2 {
     color: white;
     font-family: Inconsolata;
 }
-.frontpagebutton {
-    display: inline-block;
-    padding-left: 5%;
-    padding-right: 5%;
-    border: 3px solid white;
-    border-radius: 30px;
-    font-family:'Courier New', Courier, monospace;
-    justify-content: space-evenly;
-
-}
 /*Title styling */
 #titletext {
     position: absolute;
@@ -52,7 +42,28 @@ h2 {
 .menubar {
     text-align: center;
     list-style: none;
-
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+.topnav #navbarlinks {
+    display: none;
+}
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 /*footer*/
 #footerbg {
