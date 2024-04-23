@@ -18,6 +18,11 @@ h1 {
     color: white;
 }
 h2 {
+    text-align: left;
+    color: white;
+    font-family: Inconsolata;
+}
+h3 {
     text-align: center;
     color: white;
     font-family: Inconsolata;
@@ -120,4 +125,12 @@ footer {
 .accomplishmentstext {
     color: white;
     list-style: circle;
+}
+
+/* list styles */
+.general-ul {
+    color: white;
+    font-family: Inconsolata;
+    font-size: 20px;
+    
 }
