@@ -4,6 +4,12 @@
 
 
 /* body styling */
+#aboutme {
+    font-family: NerdFont;
+    color: #393939;
+    position: relative;
+    left: 15%;
+}
 body {
     background-color: #393939;
 }
@@ -24,16 +30,15 @@ h3 {
 /*Title styling */
 #titletext {
     position: absolute;
-    top: 2.5%;
+    top: 5%;
     left: 5%;
     margin: 5px;
-    font-size: 3rem;
 }
 #frontpagelogo {
     height: 128px;
     width: 128px;
-    top: -1.5%;
-    right: 0;
+    top: -20px;
+    right: 5%;
     position: absolute;
     margin: 10px;
     z-index: -3;
@@ -117,15 +122,24 @@ footer {
     font-family: Inconsolata;
     font-size: 20px;
 }
+.bodytext {
+    color: white;
+    font-family: Inconsolata;
+    font-size: 14px;
+}
 .accomplishmentstext {
     color: white;
     list-style: circle;
 }
-
 /* list styles */
 .general-ul {
     color: white;
     font-family: Inconsolata;
     font-size: 20px;
-    
+
+}
+.accomplishmentsheader {
+    color: white;
+    font-size: 18px;
+    font-family: Inconsolata;
 }
