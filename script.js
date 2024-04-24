@@ -1,5 +1,5 @@
-function dropdownMenu() {
-    var x = document.getElementById("mytopnav");
+function dropDownMenu() {
+    var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
       x.className += " responsive";
     } else {
