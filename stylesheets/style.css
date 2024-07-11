@@ -103,7 +103,9 @@ h3 {
 .topnav .icon {
     display: none;
 }
+
 /*footer*/
+
 .footertext {
     color: white;
     font-size: 20px;
@@ -116,7 +118,9 @@ footer {
 #footerbg {
     background-color: #C62983;
 }
+
 /* bodies of text */
+
 .introtext {
     color: white;
     font-family: Inconsolata;
