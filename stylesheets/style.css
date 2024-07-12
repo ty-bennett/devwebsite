@@ -113,10 +113,11 @@ h3 {
     font-family: Inconsolata;
 }
 footer {
-    margin-top: 80%;
+    margin-top: 60%;
 }
 #footerbg {
     background-color: #C62983;
+    margin: 0px;
 }
 
 /* bodies of text */
