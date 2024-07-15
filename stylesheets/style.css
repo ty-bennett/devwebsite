@@ -113,10 +113,11 @@ h3 {
     font-family: Inconsolata;
 }
 footer {
-    margin-top: 80%;
+    margin-top: 60%;
 }
 #footerbg {
     background-color: #C62983;
+    margin: 0px;
 }
 
 /* bodies of text */
@@ -146,4 +147,9 @@ footer {
     color: white;
     font-size: 18px;
     font-family: Inconsolata;
+}
+.listheader {
+    font-size: medium;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
 }
