@@ -2,14 +2,39 @@
 @font-face {font-family: NerdFont; src: url('BigBlueTermPlusNerdFontMono-Regular.ttf')}
 @font-face {font-family: Inconsolata; src: url('InconsolataLGCNerdFont-Regular.ttf')}
 
+/* Layout styling */
 
-/* body styling */
-#aboutme {
-    font-family: NerdFont;
-    color: #393939;
-    position: relative;
-    left: 15%;
+.gridlayout {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 0px;
 }
+.titlegrid {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 1;
+}
+.frontpagelogo {
+    grid-column: 3;
+    grid-row: 1;
+}
+.navbargrid {
+    grid-row: 2;
+}
+.textgrid {
+    grid-row: 3;
+    grid-column: 1 / span 3;
+}
+.footergrid {
+    grid-row: 3;
+    grid-column: 1 / span 3;
+}
+.tblogo {
+    height: 128px;
+    width: 128px;
+}
+    /* body styling */
 body {
     background-color: #393939;
 }
@@ -23,21 +48,6 @@ h3 {
     font-family: Inconsolata;
 }
 /*Title styling */
-#titletext {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    margin: 5px;
-}
-#frontpagelogo {
-    height: 128px;
-    width: 128px;
-    top: -20px;
-    right: 5%;
-    position: absolute;
-    margin: 10px;
-    z-index: -3;
-}
 .titleheader {
     text-align: left;
     color: white;
@@ -61,13 +71,6 @@ h3 {
     font-size: 17px;
     font-family: Inconsolata;
 }
-.topnav a.icon {
-    background: #393939;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
 .topnav a:hover{
     background: rgb(71, 71, 71);
     color: #393939;
@@ -88,15 +91,13 @@ h3 {
     font-family: Inconsolata;
 }
 footer {
-    margin-top: 60%;
+    margin-top: 80%;
 }
 #footerbg {
     background-color: #C62983;
-    margin: 0px;
 }
 .footerheading {
     text-align: center;
-    margin: 0;
     color: white;
     font-family: Inconsolata;
 }
