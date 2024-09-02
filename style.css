@@ -6,30 +6,31 @@
 
 .gridlayout {
     display: grid;
-    grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 20% 70% 10%;
+    grid-template-columns: auto 50% auto;
+    grid-template-rows: 25% auto auto;
+    grid-template-areas: 
+    "title nav logo"
+    "content content content"
+    "ft ft ft";
 }
 .titlegrid {
-    grid-column: 1;
-    grid-row: 1;
     justify-items: center;
+    grid-area: title;
 }
 .frontpagelogo {
-    grid-column: 3;
+    grid-area: logo;
     align-items: center;
     justify-items: center;
 }
 .navbargrid {
-    grid-row: 1;
-    grid-column: 2;
+    grid-area: nav;
 }
 .textgrid {
-    grid-column: 2;
-    grid-row: 2;
+    grid-area: content;
 }
 .footergrid {
-    grid-row: 3;
-    grid-column: 2;
+    grid-area: ft;
+    background-color: #C62983;
 }
 .tblogo {
     height: 128px;
@@ -58,6 +59,7 @@ h3 {
 .topnav {
     overflow: hidden;
     background-color: #393939;
+    justify-content: center;
 }
 .topnav #navbarlinks {
     display: none;
@@ -79,9 +81,6 @@ h3 {
 .topnav a.active {
     background-color: #C62983;
 }
-.topnav .icon {
-    display: none;
-}
 
 /*footer*/
 
@@ -91,17 +90,12 @@ h3 {
     text-align: center;
     font-family: Inconsolata;
 }
-#footerbg {
-    background-color: #C62983;
-}
 .footerheading {
     text-align: center;
     color: white;
     font-family: Inconsolata;
 }
-
 /* bodies of text */
-
 .introtext {
     color: white;
     font-family: Inconsolata;
@@ -121,7 +115,6 @@ h3 {
     color: white;
     font-family: Inconsolata;
     font-size: 20px;
-
 }
 .accomplishmentsheader {
     color: white;
