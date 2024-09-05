@@ -3,7 +3,6 @@
 @font-face {font-family: Inconsolata; src: url('/assets/Inconsolata-Regular.ttf')}
 
 /* Layout styling */
-
 .gridlayout {
     display: grid;
     height: 100vh;
@@ -25,6 +24,13 @@
 }
 .navbargrid {
     grid-area: nav;
+}
+.navflexcontainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
 }
 .textgrid {
     grid-area: content;
